@@ -601,6 +601,9 @@ chunk size and overlap, tooling, and how to evaluate chunking on your corpus.
   - The de facto default for general-purpose chunking. Recursively tries separators
     (`\n\n`, `\n`, or a space) to split at natural boundaries within a target token
     window — robust, fast, no extra dependencies.
+- [Omnichunk](https://github.com/oguzhankir/omnichunk)
+  <!-- verified: 2026-09-13 -->
+  - A Python library for structure-aware chunking across code, prose, and mixed documents, preserving source ranges and structural context.
 - [semchunk](https://github.com/umarbutler/semchunk)
   - A pure-Python semantic chunking library that requires no embedding model at
     chunk time; it uses statistical sentence boundaries for fast, low-cost semantic
